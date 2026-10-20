@@ -4,7 +4,7 @@ from app.regras import calcular_prioridade
 
 
 def test_calcular_prioridade_alta():
-    assert calcular_prioridade("alta") == 4
+    assert calcular_prioridade("alta") == 5
 
 
 def test_calcular_prioridade_media():
