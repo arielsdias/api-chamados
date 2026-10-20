@@ -95,7 +95,7 @@ def inicio():
 @app.get("/status")
 def status():
     return {
-        "status": "API está funcionando corretamente"
+        "status": "API está funcionando corretamente com sucesso"
     }
 
 
